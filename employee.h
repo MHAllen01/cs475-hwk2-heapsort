@@ -4,10 +4,10 @@
  */
 
 #define MAX_NAME_LEN 25
+#define MAX_EMPLOYEES 5
 
 typedef struct Employee
 {
 	char name[MAX_NAME_LEN];	/* employee ID */
 	int salary;					/* salary */
 } Employee;
-
